@@ -4,7 +4,7 @@
 flox.buildRustPackage rec {
   project = "claculator";
 
-  cargoSha256 = "0ify2890y10g8vbjc824yrz7gsz4ranb1bmrb9i5qxk025cqigdn";
+  cargoSha256 = "1acqjn40v5fdwwm6ghg6bvwf8xxiy10q400mazmm268r82kikyg3";
 
   # Programs and libraries used only at build-time.
   nativeBuildInputs = [ ];

@@ -1,10 +1,8 @@
-{ flox
+{ flox, channels
 }:
 
-flox.buildRustPackage rec {
+channels.jD91mZM2.buildRustPackage rec {
   project = "claculator";
-
-  cargoSha256 = "1acqjn40v5fdwwm6ghg6bvwf8xxiy10q400mazmm268r82kikyg3";
 
   # Programs and libraries used only at build-time.
   nativeBuildInputs = [ ];

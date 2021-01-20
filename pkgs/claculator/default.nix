@@ -1,7 +1,8 @@
-{ flox, channels
+{ flox
+, channels
 }:
 
-channels.jD91mZM2.buildRustPackage rec {
+channels.jD91mZM2.naersk.buildRustPackage rec {
   project = "claculator";
 
   # Programs and libraries used only at build-time.
